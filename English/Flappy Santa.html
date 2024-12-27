@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flappy Santa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main id="screen">
+
+        <div id="floor"></div>
+
+        <div id="bird"><img src="images/santa.png"></div>
+
+        <section id="pipezone">
+            <!--
+            This thread helped with the repeating background image that is scallable
+            https://stackoverflow.com/questions/8679066/make-image-not-background-img-in-div-repeat
+            -->
+            <div class="pipe">
+                <div class="safezone"><img src="images/safezone.png"></div>
+                <div class="pipeimg"></div>
+            </div>
+            <div class="pipe">
+                <div class="safezone"><img src="images/safezone.png"></div>
+                <div class="pipeimg"></div>
+            </div>
+            <div class="pipe">
+                <div class="safezone"><img src="images/safezone.png"></div>
+                <div class="pipeimg"></div>
+            </div>
+            <div class="pipe">
+                <div class="safezone"><img src="images/safezone.png"></div>
+                <div class="pipeimg"></div>
+            </div>
+
+        </section>
+
+        <div id="startscreen">
+            <h1>Use your spacebar to get started</h1>
+            <h1>0</h1>
+        </div>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+</html> 
